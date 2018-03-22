@@ -1,0 +1,30 @@
+{
+  "name": "custom-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "(tsc -v || npm -g i typescript) && (mocha -V || npm -g i mocha)",
+    "install": "tsc -p tsconfig.json",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrozyme/custom-skill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agrozyme/custom-skill/issues"
+  },
+  "homepage": "https://github.com/agrozyme/custom-skill#readme",
+  "dependencies": {
+    "object-logger": "^1.0.3",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/alexa-sdk": "^1.1.1",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^9.4.7"
+  }
+}

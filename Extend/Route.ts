@@ -1,6 +1,6 @@
 import {Context, OutputSpeech, Request, RequestBody} from 'alexa-sdk';
-import Response, {OutputSpeechType} from './Enumeration/Response';
-import Base from './Extend/Base';
+import Response, {OutputSpeechType} from '../Enumeration/Response';
+import Base from './Base';
 import Resource from './Resource';
 
 class Route extends Base {

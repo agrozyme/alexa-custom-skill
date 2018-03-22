@@ -1,6 +1,6 @@
 import {Context, Request, RequestBody, ResponseBody} from 'alexa-sdk';
 import {isUndefined} from 'util';
-import Base from './Extend/Base';
+import Base from './Base';
 import Provider from './Provider';
 
 export default abstract class Skill extends Base {

@@ -1,5 +1,5 @@
 import Response from '../../Enumeration/Response';
-import Base from '../../Intent';
+import Base from '../Intent';
 
 class Error extends Base {
   async run(): Promise<any> {

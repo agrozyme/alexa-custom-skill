@@ -1,5 +1,5 @@
 import Response from '../../Enumeration/Response';
-import Base from '../Request';
+import Base from '../../Request';
 
 class Error extends Base<any> {
   async run(): Promise<any> {

@@ -1,5 +1,5 @@
 import {LaunchRequest} from 'alexa-sdk';
-import Base from '../Request';
+import Base from '../../Request';
 
 class Launch extends Base<LaunchRequest> {
   async run(): Promise<any> {

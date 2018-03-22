@@ -1,6 +1,6 @@
 import {Context, Request, RequestBody, ResponseBody} from 'alexa-sdk';
 import {isUndefined} from 'util';
-import Base from './Base';
+import Base from './Extend/Base';
 
 class Resource extends Base {
   readonly callback: Function;

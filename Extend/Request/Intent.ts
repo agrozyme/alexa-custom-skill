@@ -1,8 +1,8 @@
 import {IntentRequest} from 'alexa-sdk';
-import IntentInstance from '../Intent';
+import IntentInstance from '../../Intent';
 import IntentError from '../Intent/Error';
-import Provider from '../Provider';
-import Base from '../Request';
+import Provider from '../../Provider';
+import Base from '../../Request';
 
 abstract class Intent extends Base<IntentRequest> {
   readonly intents: { [index: string]: any } = {};

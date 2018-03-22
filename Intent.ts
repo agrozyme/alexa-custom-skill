@@ -1,5 +1,5 @@
-import Base from './Base';
-import RequestIntent from './Request/Intent';
+import Base from './Extend/Base';
+import RequestIntent from './Extend/Request/Intent';
 
 abstract class Intent extends Base {
   readonly request: RequestIntent;

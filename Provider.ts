@@ -1,10 +1,10 @@
-import Request from '../Enumeration/Request';
-import Base from './Base';
+import Request from './Enumeration/Request';
+import Base from './Extend/Base';
+import RequestError from './Extend/Request/Error';
+import Intent from './Extend/Request/Intent';
+import Launch from './Extend/Request/Launch';
+import SessionEnded from './Extend/Request/SessionEnded';
 import RequestInstance from './Request';
-import RequestError from './Request/Error';
-import Intent from './Request/Intent';
-import Launch from './Request/Launch';
-import SessionEnded from './Request/SessionEnded';
 import Skill from './Skill';
 
 class Provider extends Base {
